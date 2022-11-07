@@ -66,7 +66,24 @@ button {
     flex: 0 1 100px;
     padding-bottom: 50px;
 }
+
 h2 {
     text-align: center;
     padding: 50px;
+}
+
+.third.main {
+    background-color: #e5e7eb;
+    padding: 100px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: 800;
+    text-align: end;
 }
