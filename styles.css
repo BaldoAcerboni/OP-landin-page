@@ -27,6 +27,7 @@ ul {
     padding: 50px;
     gap: 3rem;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .first-left, .first-right {
@@ -60,6 +61,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .second.main div {
@@ -86,4 +88,13 @@ h2 {
 .author {
     font-weight: 800;
     text-align: end;
+}
+
+.fourth.main {
+    display: flex; 
+    justify-content: space-evenly;
+    margin: 100px;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
 }
