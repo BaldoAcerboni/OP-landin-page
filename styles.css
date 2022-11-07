@@ -24,6 +24,7 @@ ul {
     justify-content: center;
     padding: 50px;
     gap: 3rem;
+    align-items: center;
 }
 .first-left, .first-right {
     width: 30%;
@@ -34,4 +35,12 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
 }
