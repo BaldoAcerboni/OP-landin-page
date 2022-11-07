@@ -13,11 +13,13 @@ header {
     color: #f9faf8;
     padding: 10px;
 }
+
 ul {
     display: flex;
     list-style: none;
     gap: 1em;
 }
+
 .first.main {
     display: flex;
     background-color: #1f2937;
@@ -26,9 +28,11 @@ ul {
     gap: 3rem;
     align-items: center;
 }
+
 .first-left, .first-right {
     width: 30%;
 }
+
 .first-right {
     height: 100px;
     background-color: gray;
@@ -43,4 +47,26 @@ button {
     border: 2px solid white;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.second.main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.second.main div {
+    flex: 0 1 100px;
+    padding-bottom: 50px;
+}
+h2 {
+    text-align: center;
+    padding: 50px;
 }
